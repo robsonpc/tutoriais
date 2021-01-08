@@ -1,3 +1,3 @@
 **Readme**
 
-Dicas de aplicativos ou tuturiais com comandos
+Dicas de aplicativos ou tutoriais com comandos
