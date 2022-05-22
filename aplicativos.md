@@ -1,5 +1,4 @@
 https://github.com/TheAssassin/AppImageLauncher/releases/tag/v2.1.3
-https://gdbypass.host/
 https://librewolf-community.gitlab.io/
 http://freshwiki.manjaro.org/index.php/Virt-manager
 
