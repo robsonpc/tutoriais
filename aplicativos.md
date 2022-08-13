@@ -1,6 +1,9 @@
 https://github.com/TheAssassin/AppImageLauncher/releases/tag/v2.1.3
+
 https://librewolf-community.gitlab.io/
+
 http://freshwiki.manjaro.org/index.php/Virt-manager
+
 
 ## Criar Pool VM - Linha comando
 $ virsh pool-create-as --name test-dir --type dir --target /home/
@@ -15,13 +18,20 @@ mate-tweak caja-open-terminal caja-wallpaper mpv caja-admin
 ## Instação de aplicativos Flatpak
 
 sudo apt install flatpak
+
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 flatpak install flathub com.nextcloud.desktopclient.nextcloud
+
 flatpak install flathub org.telegram.desktop
+
 flatpak install flathub io.freetubeapp.FreeTube
+
 flatpak install flathub com.github.marktext.marktext
+
 flatpak install flathub org.keepassxc.KeePassXC
+
+flatpak uninstall --unused
 
 ## Limpar tabela uefi
 sudo efibootmgr -b xxxx -B
