@@ -1,4 +1,4 @@
-https://github.com/TheAssassin/AppImageLauncher/releases/tag/v2.1.3
+https://github.com/TheAssassin/AppImageLauncher/releases/
 
 https://librewolf-community.gitlab.io/
 
