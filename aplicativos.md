@@ -11,8 +11,11 @@ $ virsh pool-create-as --name test-dir --type dir --target /home/
 $ sudo dd if=debian.iso of=/dev/sdb bs=16M oflag=sync status=progress
 
 ## Apps para instalação 
-apt install webext-ublock-origin-firefox lutris webext-keepassxc-browser webext-ublock-origin-chromium nvidia-driver-libs:i386 gamemode pdfarrnger telegram-desktop geary timeshift neofetch keepassxc chromium nvidia-driver firmware-misc-nonfree linux-headers-amd64 libvulkan1 libvulkan1:i386 
-mate-tweak caja-open-terminal caja-wallpaper mpv caja-admin
+apt install gamemode pdfarrnger telegram-desktop geary timeshift neofetch keepassxc chromium linux-headers-amd64 libvulkan1 libvulkan1:i386 mpv
+
+## Interfaces
+1 - MATE: apt install mate-tweak caja-open-terminal caja-wallpaper caja-admin
+2 - KDE minimal: apt install sddm plasma-desktop plasma-pa
 
 
 ## Instação de aplicativos Flatpak
