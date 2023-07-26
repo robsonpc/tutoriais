@@ -2,7 +2,7 @@ https://github.com/TheAssassin/AppImageLauncher/releases/
 
 https://librewolf-community.gitlab.io/
 
-http://freshwiki.manjaro.org/index.php/Virt-manager
+[http://freshwiki.manjaro.org/index.php/Virt-manager](https://wiki.manjaro.org/index.php/Virt-manager)
 
 
 ## Criar Pool VM - Linha comando
