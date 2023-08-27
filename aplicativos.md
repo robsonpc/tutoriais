@@ -11,12 +11,16 @@ $ virsh pool-create-as --name test-dir --type dir --target /home/
 $ sudo dd if=debian.iso of=/dev/sdb bs=16M oflag=sync status=progress
 
 ## Apps para instalação 
-apt install gamemode pdfarrnger telegram-desktop geary timeshift neofetch keepassxc chromium linux-headers-amd64 libvulkan1 libvulkan1:i386 mpv
+sudo apt install gamemode pdfarrnger telegram-desktop geary timeshift neofetch keepassxc chromium linux-headers-amd64 libvulkan1 libvulkan1:i386 mpv
+1 - Melhorar Aparencia LibreOffice: sudo apt install libreoffice-gtk3  
+  1.1 - Estilo diferente: sudo apt install libreoffice-style-sifr
+2 - Biblioteca Firefox (Se necessario): sudo apt install libdbus-glib-1-2
 
 ## Interfaces
-1 - MATE: apt install mate-tweak caja-open-terminal caja-wallpaper caja-admin
-2 - KDE minimal: apt install sddm plasma-desktop plasma-pa dolphin dolphin-plugins konsole
-3 - Biblioteca Firefox libdbus-glib-1-2
+1 - MATE: sudo apt install mate-tweak caja-open-terminal caja-wallpaper caja-admin
+2 - KDE minimal: sudo apt install sddm plasma-desktop plasma-pa dolphin dolphin-plugins konsole
+
+
 
 
 ## Instação de aplicativos Flatpak
