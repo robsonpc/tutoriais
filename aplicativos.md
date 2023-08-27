@@ -16,6 +16,7 @@ apt install gamemode pdfarrnger telegram-desktop geary timeshift neofetch keepas
 ## Interfaces
 1 - MATE: apt install mate-tweak caja-open-terminal caja-wallpaper caja-admin
 2 - KDE minimal: apt install sddm plasma-desktop plasma-pa dolphin dolphin-plugins konsole
+3 - Biblioteca Firefox libdbus-glib-1-2
 
 
 ## Instação de aplicativos Flatpak
