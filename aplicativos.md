@@ -39,7 +39,10 @@ flatpak install flathub com.github.marktext.marktext
 
 flatpak install flathub org.keepassxc.KeePassXC
 
+flatpak install flathub com.sublimetext.three
+
 flatpak uninstall --unused
+
 
 ## Limpar tabela uefi
 sudo efibootmgr -b xxxx -B
