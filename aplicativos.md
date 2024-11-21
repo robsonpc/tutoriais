@@ -41,6 +41,7 @@ sudo /sbin/vboxconfig
 
 ## Interfaces
 1 - MATE: sudo apt install mate-tweak caja-open-terminal caja-wallpaper caja-admin
+
 2 - KDE minimal: sudo apt install sddm plasma-desktop plasma-pa dolphin dolphin-plugins konsole
 
 
