@@ -12,10 +12,14 @@ $ sudo dd if=debian.iso of=/dev/sdb bs=16M oflag=sync status=progress
 
 ## Apps para instalação 
 sudo apt install gamemode pdfarrnger telegram-desktop geary timeshift neofetch keepassxc chromium linux-headers-amd64 libvulkan1 libvulkan1:i386 mpv
+
 1 - Melhorar Aparencia LibreOffice: sudo apt install libreoffice-gtk3  
+
   1.1 - Estilo diferente: sudo apt install libreoffice-style-sifr
 2 - Biblioteca Firefox (Se necessario): sudo apt install libdbus-glib-1-2
+
 3 - Instalação VirtualBox
+
 curl https://www.virtualbox.org/download/oracle_vbox_2016.asc | gpg --dearmor > oracle_vbox_2016.gpg
 curl https://www.virtualbox.org/download/oracle_vbox.asc | gpg --dearmor > oracle_vbox.gpg
 sudo install -o root -g root -m 644 oracle_vbox_2016.gpg /etc/apt/trusted.gpg.d/
