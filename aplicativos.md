@@ -15,6 +15,16 @@ sudo apt install gamemode pdfarrnger telegram-desktop geary timeshift neofetch k
 1 - Melhorar Aparencia LibreOffice: sudo apt install libreoffice-gtk3  
   1.1 - Estilo diferente: sudo apt install libreoffice-style-sifr
 2 - Biblioteca Firefox (Se necessario): sudo apt install libdbus-glib-1-2
+3 - Instalação VirtualBox
+curl https://www.virtualbox.org/download/oracle_vbox_2016.asc | gpg --dearmor > oracle_vbox_2016.gpg
+curl https://www.virtualbox.org/download/oracle_vbox.asc | gpg --dearmor > oracle_vbox.gpg
+sudo install -o root -g root -m 644 oracle_vbox_2016.gpg /etc/apt/trusted.gpg.d/
+sudo install -o root -g root -m 644 oracle_vbox.gpg /etc/apt/trusted.gpg.d/
+echo "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+sudo apt update
+sudo apt install linux-headers-$(uname -r) dkms
+sudo apt-get install virtualbox-7.1 -y
+sudo /sbin/vboxconfig
 
 ## Interfaces
 1 - MATE: sudo apt install mate-tweak caja-open-terminal caja-wallpaper caja-admin
