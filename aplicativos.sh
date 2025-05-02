@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## Instalação aplicativos Debian
+
+sudo apt install gamemode timeshift fastfetch chromium linux-headers-amd64 libvulkan1 libvulkan1:i386 mpv -y
+
 ## Instação de aplicativos Flatpak
 
 sudo apt install flatpak
