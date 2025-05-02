@@ -6,7 +6,7 @@ sudo apt install gamemode timeshift fastfetch chromium linux-headers-amd64 libvu
 
 ## Instação de aplicativos Flatpak
 
-sudo apt install flatpak
+sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.spotify.Client
 flatpak install flathub com.nextcloud.desktopclient.nextcloud
