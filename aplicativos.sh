@@ -9,6 +9,8 @@ sudo apt install chromium -y
 sudo apt install libvulkan1 -y
 sudo apt install libvulkan1:i386 -y 
 sudo apt install mpv -y
+sudo apt install virtualbox -y
+sudo apt install steam -y
 
 ## Instação de aplicativos Flatpak
 
