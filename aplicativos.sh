@@ -2,7 +2,13 @@
 
 ## Instalação aplicativos Debian
 
-sudo apt install gamemode timeshift fastfetch chromium libvulkan1 libvulkan1:i386 mpv -y
+sudo apt install gamemode -y
+sudo apt install timeshift -y
+sudo apt install fastfetch -y
+sudo apt install chromium -y
+sudo apt install libvulkan1 -y
+sudo apt install libvulkan1:i386 -y 
+sudo apt install mpv -y
 
 ## Instação de aplicativos Flatpak
 
