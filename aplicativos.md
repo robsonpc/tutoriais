@@ -8,6 +8,12 @@ https://librewolf-community.gitlab.io/
 ## Criar Pool VM - Linha comando
 $ virsh pool-create-as --name test-dir --type dir --target /home/
 
+Tutoriais Virtmanager:
+https://www.youtube.com/watch?v=oGIZHh34SWw
+https://www.youtube.com/watch?v=KTBGTJbOrMQ
+
+
+
 $ sudo dd if=debian.iso of=/dev/sdb bs=16M oflag=sync status=progress
 
 ## Apps para instalação 
