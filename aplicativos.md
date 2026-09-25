@@ -57,5 +57,6 @@ sudo efibootmgr -b xxxx -B
 ## Driver Windows
 driverhub
 
-## Pesquisa Steam
-sed -i -e '/\"SurveyDate\"/ s/"[0-9].*"/"'$(date +%Y-%m-%d -d "2 years ago")'"/' ~/.local/share/Steam/config/config.vdf
+## Mudar hora/data para UTC dual boot
+timedatectl set-local-rtc 1 --adjust-system-clock
+
